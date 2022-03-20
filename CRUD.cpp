@@ -2,7 +2,6 @@
 #include <stdio.h>  
 #include <string.h> 
 
-
 using namespace std;
 
 const char *nombe_archivo = "archivoestudiante.dat";
@@ -40,9 +39,10 @@ int main (){
 				switch (opcion)
 				{
 				case 1:
-
+							system("cls");
 							abrir_estudiante();
 							system("pause");
+							system("cls");
 							
 					break;
 
@@ -50,6 +50,7 @@ int main (){
 							system("cls");
       						ingresar_estudiante();
 							system("pause");
+							
 					break;
 				
 				case 3:
